@@ -1,0 +1,14 @@
+<header class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <span class="redes">
+            <a href="https://ar.linkedin.com/in/nicolassponton" target="_blank"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+            <a href="https://github.com/NicolasSponton" target="_blank"><img src="../../../assets/github.png" id="github"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </span>
+    </div>
+</header>
+

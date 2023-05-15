@@ -1,0 +1,22 @@
+.row{
+    margin-top: 15px;
+}
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        left: 3%;
+        top:550px;
+    }
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        left: 33%;
+        top:950px;
+    }
+}

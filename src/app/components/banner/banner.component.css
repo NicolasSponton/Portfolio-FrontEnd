@@ -1,0 +1,27 @@
+#banner{
+    height: 90vh;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../../assets/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner h1{
+    color: white;
+}
+
+#banner button{
+    font-size: 1.75em;
+}
+
+@media (min-width: 720px){
+
+    #banner h1{
+        font-size: 5em;
+    }
+
+}
